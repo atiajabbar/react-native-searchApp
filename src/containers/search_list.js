@@ -19,41 +19,34 @@ class SearchList extends Component {
             
            <TouchableOpacity style={{ flex:1, flexDirection:'row', marginTop:20 }}
            
-           onPress ={ () => Linking.canOpenURL({uri : item.link})}>
+           onPress ={ () => Linking.openURL(item.link)}>
               
         
            <Image
-               style={{width: 100, height:100, margin:5}}
+               style={{width: 100, height:100, margin:5, borderRadius: 50, borderColor: '#b2ebf2', borderWidth: 2}}
                 source={{uri : 'https://facebook.github.io/react-native/docs/assets/favicon.png'}}
               />
                
 
-            <View style ={{flex: 1, justifyContent:'center'}}>
-            <Text style={{fontSize: 16,color:'green', marginBottom:5,marginTop:5, justifyContent:'center'}}>
+            <View style ={{flex: 1, justifyContent:'center',  marginLeft: 4}}>
+            <Text style={{fontSize: 13,color:'green', marginBottom:5,marginTop:5, justifyContent:'center'}}>
             {item.title}
            </Text>
           
            
             <Text style={{fontSize: 14,  marginTop: 5, marginBottom: 5,color:'red'}}>
-            {item.link}
+            {item.displayLink}
             </Text>
 
             </View>
 
             </TouchableOpacity>
-           
-            
-            
-           // <Text>{item.displayLink}, {item.title}</Text>
-           
-            //<Text>{item.pagemap.cse_image[0]}</Text>
-            
         )
     }
 
     renderSeparator = () =>{
         return(
-            <View style ={{height:1, width:'100%', backgroundColor: 'black'}}>
+            <View style ={{height:2, width:'100%', backgroundColor: 'black'}}>
             
             </View>
         )

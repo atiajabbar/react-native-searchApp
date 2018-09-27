@@ -4,6 +4,7 @@ ADDED from C:\Users\hp\Desktop\searchingwords\android\app\src\main\AndroidManife
 INJECTED from C:\Users\hp\Desktop\searchingwords\android\app\src\main\AndroidManifest.xml:1:1-26:12
 INJECTED from C:\Users\hp\Desktop\searchingwords\android\app\src\main\AndroidManifest.xml:1:1-26:12
 INJECTED from C:\Users\hp\Desktop\searchingwords\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [:realm] C:\Users\hp\Desktop\searchingwords\node_modules\realm\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cda4babd1404165e3b245c69fc48b4f1\AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.0.1.aar\3ad04da7a9c34b1f8a5c09162df5715f\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:support-v4:23.0.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-v4-23.0.1.aar\481ecce4958062bb67a48a7124104e18\AndroidManifest.xml:17:1-24:12
@@ -45,6 +46,8 @@ MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\hp\.gradle\caches\
 		ADDED from C:\Users\hp\Desktop\searchingwords\android\app\src\main\AndroidManifest.xml:5:22-75
 application
 ADDED from C:\Users\hp\Desktop\searchingwords\android\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [:realm] C:\Users\hp\Desktop\searchingwords\node_modules\realm\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:9:5-20
+MERGED from [:realm] C:\Users\hp\Desktop\searchingwords\node_modules\realm\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cda4babd1404165e3b245c69fc48b4f1\AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cda4babd1404165e3b245c69fc48b4f1\AndroidManifest.xml:13:5-20
 MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.0.1.aar\3ad04da7a9c34b1f8a5c09162df5715f\AndroidManifest.xml:22:5-20
@@ -93,6 +96,8 @@ uses-sdk
 INJECTED from C:\Users\hp\Desktop\searchingwords\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\hp\Desktop\searchingwords\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\hp\Desktop\searchingwords\android\app\src\main\AndroidManifest.xml
+MERGED from [:realm] C:\Users\hp\Desktop\searchingwords\node_modules\realm\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:realm] C:\Users\hp\Desktop\searchingwords\node_modules\realm\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cda4babd1404165e3b245c69fc48b4f1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\cda4babd1404165e3b245c69fc48b4f1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.0.1.aar\3ad04da7a9c34b1f8a5c09162df5715f\AndroidManifest.xml:20:5-43

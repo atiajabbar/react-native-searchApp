@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import {fetchKeyword} from '../actions/index';
+import Search from 'react-native-search-box';
 
 
   class SearchBar extends Component {
@@ -32,11 +33,14 @@ import {fetchKeyword} from '../actions/index';
 
     render() {
         return(
-            <View>
-               <TextInput //style={{height:30, width:200}}
+            <View style={{flex: 1, marginLeft: 1, marginRight: 3}}>
+            
+              <Search 
+              ref= "Search_box"
                 placeholder ="search keywords"
                 value= {this.state.search}
                 onChangeText = {(value ) => this.onTextInputChange(value)}
+                onPress = {this.onButtonPressed}
                 />
                
                 <Button 
